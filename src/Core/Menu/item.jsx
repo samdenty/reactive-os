@@ -69,6 +69,7 @@ class MenuItem extends React.PureComponent {
         </Menu>
       )
     }
+
     return item
   }
 }

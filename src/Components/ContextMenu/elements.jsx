@@ -13,7 +13,6 @@ export const Menu = styled(ContextMenu)`
   transition: opacity 0.1s ease;
   box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.25), 0px 0px 3px rgba(0, 0, 0, 0.4);
   text-align: left;
-  box-sizing: border-box;
   user-select: none;
   border-radius: 6px;
   backdrop-filter: initial;

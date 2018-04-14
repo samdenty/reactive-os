@@ -8,4 +8,4 @@ class DockBar extends React.PureComponent {
 }
 
 export default DockBar
-export { default as DockItem } from './item'
+export { default as DockIcon } from './icon'

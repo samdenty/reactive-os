@@ -1,10 +1,12 @@
 import React from 'react'
-import { Wallpaper } from './elements'
+import { Container } from './elements'
 
-class Desktop extends React.Component {
+class Desktop extends React.PureComponent {
   render() {
-    return <Wallpaper />
+    return <Container>{this.props.children}</Container>
   }
 }
 
 export default Desktop
+
+export { default as DesktopIcon } from './icon'

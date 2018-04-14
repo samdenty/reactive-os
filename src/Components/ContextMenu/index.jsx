@@ -16,7 +16,8 @@ export class Menu extends React.Component {
           id={this.id}
           innerRef={(ref) => {
             if (trigger) trigger(ref)
-          }}>
+          }}
+          holdToDisplay={-1}>
           {this.props.children}
         </Trigger>
 

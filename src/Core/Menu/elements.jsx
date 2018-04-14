@@ -8,7 +8,6 @@ export const Bar = styled('div')`
   left: 0;
   width: 100%;
   height: 24px;
-  box-sizing: border-box;
   background-color: rgba(252, 252, 252, 0.95);
   &::after {
     content: '';
